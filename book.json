@@ -1,0 +1,29 @@
+{
+    "title": "Course Builder 中文文档",
+    "description": "Course Builder 中文文档 V1",
+    "gitbook": ">=2.0.0",
+    "links": {
+        "sidebar": {
+            "COOC China": "https://cooc-china.github.io/"
+        }
+    },
+    "plugins": [
+        "collapsible-menu",
+        "livereload",
+        "github"
+    ],
+    "pluginsConfig": {
+        "sharing": {
+            "facebook": false,
+            "google": false,
+            "twitter": false,
+            "weibo": true,
+            "instapaper": false,
+            "all": ["weibo"]
+        },
+        "github": {
+            "url": "https://github.com/COOC-China/coursebuilder-document.git"
+        }
+    },
+    "language": "zh-hans"
+}
