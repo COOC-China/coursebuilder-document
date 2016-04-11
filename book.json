@@ -10,7 +10,8 @@
     "plugins": [
         "collapsible-menu",
         "livereload",
-        "github"
+        "github",
+		"disqus"
     ],
     "pluginsConfig": {
         "sharing": {
@@ -23,7 +24,11 @@
         },
         "github": {
             "url": "https://github.com/COOC-China/coursebuilder-document.git"
+        },
+		"disqus": {
+            "shortName": "coursebuilder-document"
         }
+
     },
     "language": "zh-hans"
 }
