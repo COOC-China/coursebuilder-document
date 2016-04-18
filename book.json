@@ -1,17 +1,17 @@
 {
-    "title": "Course Builder 中文文档",
+    "author":"COOC China",
+	"extension":null,
+	"generator":"site",
+	"title": "Course Builder 中文文档",
     "description": "Course Builder 中文文档 V1",
-    "gitbook": ">=2.0.0",
     "links": {
         "sidebar": {
-            "COOC China": "https://cooc-china.github.io/"
+            "COOC China": "https://cooc-china.github.io/",
+			"参与贡献":"https://github.com/COOC-China/coursebuilder-document.git"
         }
     },
     "plugins": [
-        "collapsible-menu",
-        "livereload",
-        "github",
-		"disqus"
+		"duoshuo"
     ],
     "pluginsConfig": {
         "sharing": {
@@ -22,11 +22,8 @@
             "instapaper": false,
             "all": ["weibo"]
         },
-        "github": {
-            "url": "https://github.com/COOC-China/coursebuilder-document.git"
-        },
-		"disqus": {
-            "shortName": "coursebuilder-document"
+		"duoshuo": {
+            "short_name":"coursebuilder-document"
         }
 
     },
